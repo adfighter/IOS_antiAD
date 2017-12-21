@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host)
 {
-if( shExpMatch(host, ".apple.com")) return "PROXY 0.0.0.0:0;";
+
   if(/^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?cnzz\./i.test(url)) return "0.0.0.0:0";
   if(/^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?turner\.com/i.test(url)) return "0.0.0.0:0";
   if(/^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?hbogo\.com/i.test(url)) return "0.0.0.0:0";
