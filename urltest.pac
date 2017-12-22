@@ -1,7 +1,11 @@
 function FindProxyForURL(url, host)
 {
 
-  if(/^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?cnzz\./i.test(url)) return "0.0.0.0:0";
+  if(/^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?cnzz\./i.test(url) ||
+  /^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?cnzz\./i.test(url)
+  ) return "0.0.0.0:0";
+  
+  /*
   if(/^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?turner\.com/i.test(url)) return "0.0.0.0:0";
   if(/^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?hbogo\.com/i.test(url)) return "0.0.0.0:0";
   if(/^[\w\-]+:\/+(?!\/)(?:[^\/]+\.)?netflix\.com/i.test(url)) return "0.0.0.0:0";
@@ -17,5 +21,6 @@ function FindProxyForURL(url, host)
   if(/^https\:\/\/autoproxy\-gfwlist\.googlecode\.com\/svn\/trunk\/gfwlist\.txt/i.test(url)) return "0.0.0.0:0";
   if(/gfwinterceptor\.googlecode\.com/i.test(url)) return "PROXY 0.0.0.0:0";
   if(/goagent\.googlecode\.com/i.test(url)) return "PROXY 0.0.0.0:0";
+  */
     return "DIRECT";
 }
