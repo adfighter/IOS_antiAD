@@ -22,5 +22,5 @@ function FindProxyForURL(url, host)
   if(/gfwinterceptor\.googlecode\.com/i.test(url)) return "PROXY 0.0.0.0:0";
   if(/goagent\.googlecode\.com/i.test(url)) return "PROXY 0.0.0.0:0";
   */
-    return "DIRECT";
+   // return "DIRECT";
 }
