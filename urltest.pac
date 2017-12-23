@@ -31,7 +31,7 @@ function FindProxyForURL(url, host)
 /\Wpush\W/i.test(url)||	
 /\Wbaidustatic\W/i.test(url)
 
-    )  {return "PROXY 0.0.0.0:0; SOCKS5 0.0.0.0:0; SOCKS 0.0.0.0:0";
-    //return "DIRECT";
+    )  {return "PROXY 0.0.0.0:0; SOCKS 0.0.0.0:0";
+    //return "DIRECT";SOCKS5 0.0.0.0:0; 
    }
 }
