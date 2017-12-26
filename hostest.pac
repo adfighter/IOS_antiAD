@@ -1,8 +1,5 @@
-function FindProxyForURL(url, host)
+function FindProxyForURL(url, host){
 
-{
-
-
-return "PROXY 0.0.0.0:0;";
-
+return "0.0.0.0:0"
+  
 }
