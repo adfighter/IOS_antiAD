@@ -3,9 +3,6 @@ function FindProxyForURL(url, host)
 {
 
 
-if( shExpMatch(host, "apple.com")) return "PROXY 0.0.0.0:0";
- 
-
-    return "DIRECT";
+return "PROXY 0.0.0.0:0; SOCKS 0.0.0.0:0; SOCKS5 0.0.0.0:0;";
 
 }
