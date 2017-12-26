@@ -1,3 +1,4 @@
+
 function FindProxyForURL(url, host)
 {
  
@@ -70,7 +71,9 @@ function FindProxyForURL(url, host)
 /\Wsinaads_\W/i.test(url)||		
 /\Wbgads\W/i.test(url)
 
-    )  {return "PROXY 0.0.0.0:0; SOCKS 0.0.0.0:0; SOCKS5 0.0.0.0:0;";
+    )  {
+     return "PROXY 0.0.0.0:0";
+     //return "PROXY 0.0.0.0:0; SOCKS 0.0.0.0:0; SOCKS5 0.0.0.0:0;";
     //return "DIRECT" 
    }
 }
