@@ -16,7 +16,7 @@ function FindProxyForURL(url, host)
 /\Wadintrs\W/i.test(url)||	/\Wlyunsd\W/i.test(url)||	/\Walimama\W/i.test(url)||
 /\Wadpfile\W/i.test(url)||	/\Wlzjycy\W/i.test(url)||	/\Wniuxgame\d*\W/i.test(url)||
 /\Wadpuba\W/i.test(url)||	/\Wmediav\W/i.test(url)||	/\Wpos\Wbaidu\W/i.test(url)||
-/\Wadpv\W/i.test(url)||	/\Wpic\Wliwo\W/i.test(url)||	
+/\Wadpv\W/i.test(url)||	/\Wpic\Wliwo\W/i.test(url)||	/\Wl\Wqq\Wcom\W/i.test(url)||
 /\WAdverJS\W/i.test(url)||	/\Wpstatic\Wxunlei\W/i.test(url)||	
 /\Wadvpic\W/i.test(url)||	/\Wqhres\W/i.test(url)||	
 /\Walljs\W/i.test(url)||	/\Wqihucdn\W/i.test(url)||	
@@ -30,7 +30,7 @@ function FindProxyForURL(url, host)
 /\Wggjs\W/i.test(url)||	/\Wzhanzhang\Wbaidu\W/i.test(url)||	
 /\Wggpic\W/i.test(url)||	/\Wpush\W/i.test(url)||	
 /\Wggtp\W/i.test(url)||	/\Wbaidustatic\W/i.test(url)||	
-/\Wguanggao\d*\W/i.test(url)||		
+/\Wguanggao\d*\W/i.test(url)||	/\Wyksmartbanner\W/i.test(url)||	
 /\Wguangg\W/i.test(url)||		
 /\Wifengad\W/i.test(url)||		
 /\Wgetadvert\W/i.test(url)||		
