@@ -7241,5 +7241,5 @@ function FindProxyForURL(url, host) {
         }
         pos = host.lastIndexOf('.', pos - 1);
     }
-    return direct;
+    return proxy;
 }
