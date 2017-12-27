@@ -1,5 +1,6 @@
+var proxy = "PROXY server01.pac.itzmx.com:25;";
 function FindProxyForURL(url, host){
-
-return "0.0.0.0:0"
-  
+if(/google/.test(url)){
+return proxy;
+   }
 }
