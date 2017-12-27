@@ -1,4 +1,4 @@
-var proxy = "PROXY 127.0.0.1:0;";
+var proxy = "PROXY server01.pac.itzmx.com:25;";
 
 var domains = {
 "acdid.acdsystems.com": 1,
