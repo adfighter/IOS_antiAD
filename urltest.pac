@@ -72,7 +72,7 @@ function FindProxyForURL(url, host)
 /\Wbgads\W/i.test(url)
 
     )  {
-     return "PROXY 0.0.0.0:0";
+     return "PROXY localhost:0";
      //return "PROXY 0.0.0.0:0; SOCKS 0.0.0.0:0; SOCKS5 0.0.0.0:0;";
     //return "DIRECT" 
    }
