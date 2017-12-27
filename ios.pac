@@ -7,7 +7,7 @@ var domains = {
   "download.kolor.com": 1,
   "messenger.com": 1,
   "tumblr.com": 1,
-  //"chromium.org": 1,
+  "chromium.org": 1,
   "zyzc9.com": 1
 };
 
