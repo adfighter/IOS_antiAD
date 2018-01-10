@@ -1608,7 +1608,7 @@ function FindProxyForURL(url, host)
 
     )  {
      //return "PROXY localhost:0";
-     return "PROXY 0.0.0.0:0; SOCKS 0.0.0.0:0; SOCKS5 0.0.0.0:0;";
+     return "PROXY 127.0.0.1:12345; SOCKS 127.0.0.1:12345; SOCKS5 127.0.0.1:12345;";
     //return "DIRECT" 
    }
 }
