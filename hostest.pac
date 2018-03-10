@@ -1,6 +1,8 @@
-var proxy = "PROXY server01.pac.itzmx.com:25;";
+var proxy = "PROXY 127.0.0.1:8021";
 function FindProxyForURL(url, host){
-if(/\Wacdid\Wacdsystems\Wcom/i.test(url)||
+if(
+   
+   /\Wacdid\Wacdsystems\Wcom/i.test(url)||
 /\Wactivation\Wacronis\Wcom/i.test(url)||
 /\Wactivate\Wadobe\Wcom/i.test(url)||
 /\Wereg\Wadobe\Wcom/i.test(url)||
