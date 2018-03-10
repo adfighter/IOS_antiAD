@@ -13,7 +13,7 @@ function FindProxyForURL(url, host)
 /\Wchangyan\Witc\W/i.test(url)||
 /\Wchangyan\Wsohu\W/i.test(url)||
 /\Wcnsptv\W/i.test(url)||
-/\Wcnzz/i.test(url)||
+/\Wcnzz/i.test(url)||/\Wsxzmj\W/i.test(url)||
 /\Wcoinhive\W/i.test(url)||
 /\Wctsywy\W/i.test(url)||
 /\Wgeiyujieda\W/i.test(url)||
