@@ -57,7 +57,7 @@ function FindProxyForURL(url, host)
 /push/i.test(url)||
 /track/i.test(url)||
 /videos\Wother/i.test(url)||
-/\Wad[-_./?&=svx0-9]/i.test(url)||
+/\Wad[_svx0-9]?\W/i.test(url)||
 /\Wgg/i.test(url)||
 /\Wguangg/i.test(url)||
 /\Wunion\W/i.test(url)||
