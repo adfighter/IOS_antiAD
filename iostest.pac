@@ -4,8 +4,6 @@ function FindProxyForURL(url, host)
     if(
 
 
-/videos\Wother/i.test(url)||
-     
 /\Wad[_svx0-9]?\W/i.test(url)||
 /\Wgg/i.test(url)||
 /\Wguangg/i.test(url)
