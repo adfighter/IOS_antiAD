@@ -6337,7 +6337,7 @@ function FindProxyForURL(url, host)
 /\Whdapp1003\Wa\Wakamaihd\Wnet/i.test(url)||
 /\Whdapp1008\Wa\Wakamaihd\Wnet/i.test(url)||
 /\Whdsrc\Wa\Wakamaihd\Wnet/i.test(url)||
-/\Whjfile\Wcn\Wanalytics\Wsite\WTrackEvent\Wjs/i.test(url)||
+/\Whjfile\Wcn\Wanalytics\Wsite\WTrackEvent\Wjs/i.test(url)
 
     )  {
      //return "PROXY localhost:0";
