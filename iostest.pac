@@ -2,9 +2,7 @@ function FindProxyForURL(url, host)
 {
  
     if(
-/ad/i.test(url)||
-/\Wgg/i.test(url)||
-/\Wguangg/i.test(url)
+/ad/i.test(url)
 
     )  {
      //return "PROXY localhost:0";
