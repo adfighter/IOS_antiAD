@@ -2,7 +2,7 @@ function FindProxyForURL(url, host)
 {
  
     if(
-/\Wad.\W/i.test(url)||
+/ad/i.test(url)||
 /\Wgg/i.test(url)||
 /\Wguangg/i.test(url)
 
