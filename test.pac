@@ -4,7 +4,7 @@ function FindProxyForURL(url, host)
     if(
     
 /videos[-_./?&=%$~]other/g.test(url)||
-/[-_./?&=%$~]ad[-_./?&=svx0-9]/g.test(url)||
+/[-_./?&=%$~]ad[svx0-9]?[-_./?&=]/g.test(url)||
 /[-_./?&=%$~]gg/g.test(url)||
 /[-_./?&=%$~]guangg/g.test(url)||
 /[-_./?&=%$~]union[-_./?&=%$~]/g.test(url)||
