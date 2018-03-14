@@ -4,7 +4,7 @@ function FindProxyForURL(url, host)
     if(
     
 
-/adv/g.test(url)
+/ads/g.test(url)
 
      )  {
      //return "PROXY localhost:0";
