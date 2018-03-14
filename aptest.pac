@@ -75,7 +75,7 @@ function FindProxyForURL(url, host)
 /banner/g.test(url)||
 /click/g.test(url)||
 /cpro/g.test(url)||
-/mob[0-9./]
+/mob[0-9./]/g.test(url)||
 /track/g.test(url)||
 /videos[\-\./:]other/g.test(url)||
 /[\-\./:]ad[-_./?&=svx0-9]/g.test(url)||
