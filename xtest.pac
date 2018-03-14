@@ -1,4 +1,4 @@
-function FindProxyForURL(url, host)
+/*function FindProxyForURL(url, host)
 {
  
     if(
@@ -11,4 +11,9 @@ function FindProxyForURL(url, host)
      return "PROXY 127.0.0.1:8021";
     //return "DIRECT" 
    }
+}*/
+
+function FindProxyForURL(url, host) {
+  if(shExpMatch(url,"*.baidu.com/*")){
+  return "PROXY 127.0.0.1:8021";}
 }
