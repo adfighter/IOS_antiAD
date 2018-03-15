@@ -1,5 +1,9 @@
-	function uno(url){
-		if (
+function FindProxyForURL(url, host)
+{
+     //if (uno(url)) {return "PROXY 127.0.0.1:8021";}
+     //if (unv(url)) {return "PROXY 127.0.0.1:8021";}
+     //if (usa(url)) {return "PROXY 127.0.0.1:8021";}
+     if (
 /[./]cnzz/g.test(url)||
 /[./]aliyun/g.test(url)||
 /[./]tanx/g.test(url)||
@@ -20,14 +24,11 @@
 /[./]adview/g.test(url)||
 /[./]adwo/g.test(url)
 			) {
-			return true;
+			return "PROXY 127.0.0.1:8021";
 		}
 
-	}
 
-
-	function unv(url){
-		if (
+     if (
 /[\-\./:]acscript[\-\./:]js/g.test(url)||
 /[\-\./:]51[\-\./:]la/g.test(url)||
 /[\-\./:]52shouyou[\-\./:]/g.test(url)||
@@ -93,12 +94,11 @@
 /[^c]count/g.test(url)||
 /[\-\./:]ws$/g.test(url)
 		) {
-		return true;	
+		return "PROXY 127.0.0.1:8021";
 		}
-	}
 
-	function usa(url){
-		if (
+
+     if (
 /[-./]cnhv[.]co/g.test(url)||
 /[-./]coin[-]hive[.]com/g.test(url)||
 /[-./]coinhive[.]com/g.test(url)||
@@ -3175,13 +3175,6 @@
 /[-./]hdapp1008[-]a[.]akamaihd[.]net/g.test(url)||
 /[-./]hdsrc[-]a[.]akamaihd[.]net/g.test(url)
 		) {
-		return true;
+		return "PROXY 127.0.0.1:8021";
 		}
-	}
-
-function FindProxyForURL(url, host)
-{
-     if (uno(url)) {return "PROXY 127.0.0.1:8021";}
-     if (unv(url)) {return "PROXY 127.0.0.1:8021";}
-     if (usa(url)) {return "PROXY 127.0.0.1:8021";}
 }
