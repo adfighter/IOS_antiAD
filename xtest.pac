@@ -20,7 +20,7 @@ try
   //在这里运行代码
 
 
-if(/[/]/.test(url)){
+//if(/[/]/.test(url)){
 	if (
 
 /[-]1688[-]wp[-]media[/]ads[/]/.test(url)||
@@ -1571,7 +1571,6 @@ if(/[/]/.test(url)){
 /[-./]geekpark[.]net[/]api[/]v1[/]ads/.test(url)||
 /[-./]geilwx[.]com[/]read[/]ad/.test(url)||
 /[-./]gexing[.]com[/]api[/]api_get_tankuang[.]php?/.test(url)||
-/gexing[.]com[/]j[/]??zmask[.]js,easing[.]js?/.test(url)||
 /[-./]gezila[.]com[/]v3[/]ad[/]/.test(url)||
 /[-./]gfan[.]com[/]press[/]/.test(url)||
 /[-./]gg163[.]net[/]js[/]163bbsad[.]js/.test(url)||
@@ -3227,7 +3226,6 @@ if(/[/]/.test(url)){
 /[-./]yorkbbs[.]ca[/]yorkads[/]/.test(url)||
 /[-./]youku[.]com[/]cms[/]tool[/]pub[/]get_putdata[.]/.test(url)||
 /[-./]youku[.]com[/]dress[/]/.test(url)||
-/youku[.]com[/]QVideo[/]~ajax[/]getDefaultItem?/.test(url)||
 /[-./]youmeek[.]com[/]images[/]aliyunAdImg/.test(url)||
 /[-./]youqu[.]net[/]js[/]/.test(url)||
 /[-./]youth[.]cn[/]ggw[/]dep_ggw[/]/.test(url)||
@@ -3410,7 +3408,7 @@ if(/[/]/.test(url)){
 
 	return "PROXY 127.0.0.1:8021";
 }
-}
+//}
 
 
   }
