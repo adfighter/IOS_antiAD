@@ -3181,7 +3181,7 @@
 
 function FindProxyForURL(url, host)
 {
-     if (uno()) {return "PROXY 127.0.0.1:8021";}
-     if (unv()) {return "PROXY 127.0.0.1:8021";}
-     if (usa()) {return "PROXY 127.0.0.1:8021";}
+     if (uno(url)) {return "PROXY 127.0.0.1:8021";}
+     if (unv(url)) {return "PROXY 127.0.0.1:8021";}
+     if (usa(url)) {return "PROXY 127.0.0.1:8021";}
 }
