@@ -8,6 +8,8 @@ function FindProxyForURL(url, host)
      //if (noc(url)) {return "PROXY 127.0.0.1:8021";}
      //if (yht(url)) {return "PROXY 127.0.0.1:8021";}
 
+url=url.replace(/\//ig, ".")
+
      //union
      if (
 /[./]cnzz/g.test(url)||
