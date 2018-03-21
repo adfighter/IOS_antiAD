@@ -145,6 +145,7 @@ url=url.replace(/\//ig, ".");
 /[-./]zhanzhang[-./]/g.test(url)||
 /[-./]cpro/g.test(url)||
 /[-./]videos[-./]other/g.test(url)||
+/[-./]s[.]zgclmw[.]/g.test(url)||
 /[-./]51[-./]la/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
