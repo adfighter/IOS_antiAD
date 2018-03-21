@@ -19,7 +19,7 @@ url=url.replace(/\//ig, ".");
 /[^/][^g].alicdn/g.test(url)||
 /[-_./?&=]+pagead[-_./?&=0-9]+/g.test(url)||
 /[^c]count/g.test(url)||
-//ws$/g.test(url)
+/\/ws$/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
 		}
