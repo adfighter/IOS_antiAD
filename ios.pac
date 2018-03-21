@@ -19,7 +19,8 @@ url=url.replace(/\//ig, ".");
 /[^/][^g].alicdn/g.test(url)||
 /[-_./?&=]+pagead[-_./?&=0-9]+/g.test(url)||
 /[^c]count/g.test(url)||
-/[-/]]ws$/g.test(url)
+/[-/]ws$/g.test(url)||
+/mob[0-9./]/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
 		}
@@ -143,7 +144,8 @@ url=url.replace(/\//ig, ".");
 /[-./]ynjczy[-./]/g.test(url)||
 /[-./]zhanzhang[-./]/g.test(url)||
 /[-./]cpro/g.test(url)||
-/[-./]videos[-./]other/g.test(url)
+/[-./]videos[-./]other/g.test(url)||
+/[-./]51[-./]la/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
 		}
