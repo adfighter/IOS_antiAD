@@ -87,7 +87,6 @@ url=url.replace(/\//ig, ".");
 /[-./]applovin/g.test(url)||
 /[-./]optaim/g.test(url)||
 /[-./]qtmojo/g.test(url)||
-/[-./]serving-sys/g.test(url)||
 /[-./]adpush/g.test(url)||
 /[-./]criteo/g.test(url)||
 /[-./]madserving/g.test(url)||
@@ -98,7 +97,9 @@ url=url.replace(/\//ig, ".");
 /[-./]airpush/g.test(url)||
 /[-./]moad/g.test(url)||
 /[-./]adtaily/g.test(url)||
-/[-./]aduu/g.test(url)
+/[-./]aduu/g.test(url)||
+/[-./]vungle/g.test(url)||
+/[-./]rayjump/g.test(url)
 			) {
 			return "PROXY 127.0.0.1:8021";
 		}
@@ -145,8 +146,9 @@ url=url.replace(/\//ig, ".");
 /[-./]zhanzhang[-./]/g.test(url)||
 /[-./]cpro/g.test(url)||
 /[-./]videos[-./]other/g.test(url)||
-/[-./]s[.]zgclmw[.]/g.test(url)||
-/[-./]51[-./]la/g.test(url)
+/[-./]51[-./]la/g.test(url)||
+/[-./]serving[-./]sys/g.test(url)||
+/[-./]app[-./]measurement/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
 		}
