@@ -147,8 +147,18 @@ url=url.replace(/\//ig, ".");
 /[-./]videos[-./]other/g.test(url)||
 /[-./]51[-./]la/g.test(url)||
 /[-./]serving[-./]sys/g.test(url)||
+/[-./]app[-./]measurement/g.test(url)||
 /[-./]s[-./]zgclmw/g.test(url)||
-/[-./]app[-./]measurement/g.test(url)
+/[-./]e[-./]qxfly[-./]/g.test(url)||
+/[-./]pkdu[-./]/g.test(url)||
+/[-./]69lm[-./]/g.test(url)||
+/[-./]jjxgly[-./]/g.test(url)||
+/[-./]ksksqa[-./]/g.test(url)||
+/[-./]zgc987[-./]/g.test(url)||
+/[-./]199[-./]180[-./]100[-./]185/g.test(url)||
+/[-./]88rpg[-./]/g.test(url)||
+/[-./]dlhygj[-./]/g.test(url)||
+/[-./]lrswl[-./]/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
 		}
