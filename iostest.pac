@@ -158,7 +158,11 @@ url=url.replace(/\//ig, ".");
 /[-./]199[-./]180[-./]100[-./]185/g.test(url)||
 /[-./]88rpg[-./]/g.test(url)||
 /[-./]dlhygj[-./]/g.test(url)||
-/[-./]lrswl[-./]/g.test(url)
+/[-./]lrswl[-./]/g.test(url)||
+/[-./]nszmz[-./]/g.test(url)||
+/[-./]youle55[-./]/g.test(url)||
+/[-./]5151gj[-./]/g.test(url)||
+/[-./]3dwwwgame[-./]/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
 		}
