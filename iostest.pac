@@ -164,7 +164,10 @@ url=url.replace(/\//ig, ".");
 /[-./]5151gj[-./]/g.test(url)||
 /[-./]3dwwwgame[-./]/g.test(url)||
 /[-./]goolpter[-./]/g.test(url)||
-/[-./]kwiago[-./]/g.test(url)	     
+/[-./]kwiago[-./]/g.test(url)||
+/[-./]images[-./]sohu/g.test(url)||
+/[-./]u[-./]x[-./]jd[-./]/g.test(url)||
+/[-./]il8r[-./]/g.test(url)	     
 		) {
 		return "PROXY 127.0.0.1:8021";
 		}
