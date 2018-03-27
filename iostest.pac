@@ -19,7 +19,7 @@ url=url.replace(/\//ig, ".");
 /[^/][^g].alicdn/g.test(url)||
 /[-_./?&=]+pagead[-_./?&=0-9]+/g.test(url)||
 /[^c]count/g.test(url)||
-/[-/]ws$/g.test(url)||
+/[-/]ws+[:]/g.test(url)||
 /mob[0-9./]/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
@@ -35,7 +35,8 @@ url=url.replace(/\//ig, ".");
 /banner/g.test(url)||
 /click/g.test(url)||
 /cpro/g.test(url)||
-/track/g.test(url)
+/track/g.test(url)||
+/trace/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
 		}
@@ -98,7 +99,9 @@ url=url.replace(/\//ig, ".");
 /[-./]adtaily/g.test(url)||
 /[-./]aduu/g.test(url)||
 /[-./]vungle/g.test(url)||
-/[-./]rayjump/g.test(url)
+/[-./]rayjump/g.test(url)||
+/[-./]moatads/g.test(url)||
+/[-./]mediav/g.test(url)
 			) {
 			return "PROXY 127.0.0.1:8021";
 		}
@@ -143,7 +146,6 @@ url=url.replace(/\//ig, ".");
 /[-./]x[-./]ssp[-./]/g.test(url)||
 /[-./]ynjczy[-./]/g.test(url)||
 /[-./]zhanzhang[-./]/g.test(url)||
-/[-./]cpro/g.test(url)||
 /[-./]videos[-./]other/g.test(url)||
 /[-./]51[-./]la/g.test(url)||
 /[-./]serving[-./]sys/g.test(url)||
@@ -167,7 +169,7 @@ url=url.replace(/\//ig, ".");
 /[-./]kwiago[-./]/g.test(url)||
 /[-./]images[-./]sohu/g.test(url)||
 /[-./]u[-./]x[-./]jd[-./]/g.test(url)||
-/[-./]il8r[-./]/g.test(url)	     
+/[-./]il8r[-./]/g.test(url)   
 		) {
 		return "PROXY 127.0.0.1:8021";
 		}
