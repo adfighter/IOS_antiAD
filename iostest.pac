@@ -223,6 +223,36 @@ url=url.replace(/\//ig, ".");
 		return "PROXY 127.0.0.1:8021";
 		}
  
+	
+	//iqiyi	
+     if (
+/[-./]iface[-./a-z0-9]+qiyi/g.test(url)||
+/[-./]msg[-./a-z0-9]+qiyi/g.test(url)||
+/[-./]afp[-./a-z0-9]+qiyi/g.test(url)||
+/[-./]ckm[-./]iqiyi/g.test(url)||
+/[-./]cloudpush[-./]iqiyi/g.test(url)||
+/[-./]cm[-./]passport[-./]iqiyi/g.test(url)||
+/[-./]cmts[-./]iqiyi/g.test(url)||
+/[-./]cupid[-./]iqiyi/g.test(url)||
+/[-./]feedback[-./]iqiyi/g.test(url)||
+/[-./]gamecenter[-./]iqiyi/g.test(url)||
+/[-./]im[-./]iqiyi/g.test(url)||
+/[-./]mbdapp[-./]iqiyi/g.test(url)||
+/[-./]mbdlog[-./]iqiyi/g.test(url)||
+/[-./]notice[-./]iqiyi/g.test(url)||
+/[-./]ota[-./]iqiyi/g.test(url)||
+/[-./]paopao[-./]iqiyi/g.test(url)||
+/[-./]policy[-./]video[-./]iqiyi/g.test(url)||
+/[-./]rcd[-./]iqiyi/g.test(url)||
+/[-./]sns[-./]iqiyi/g.test(url)||
+/[-./]static[-./]g[-./]iqiyi/g.test(url)||
+/[-./]store[-./]iqiyi/g.test(url)||
+/[-./]uaa[-./]iqiyi/g.test(url)
+		) {
+		return "PROXY 127.0.0.1:8021";
+		}
+
+	
  
 	//nocoin
      if (
