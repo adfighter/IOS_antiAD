@@ -8,7 +8,7 @@ function FindProxyForURL(url, host)
      
 url=url.replace(/\//ig, ".");
 
-     //regexp
+     //regexp-->
      if (
 /[-_./?&=]+ad[-_./?&=svx0-9]/g.test(url)||
 /[-_./?&=]+gg/g.test(url)||
@@ -24,9 +24,9 @@ url=url.replace(/\//ig, ".");
 		) {
 		return "PROXY 127.0.0.1:8021";
 		}
+	//<---regexp	
 
-
-	//universe	
+	//universe-->	
      if (
 /analitycs/g.test(url)||
 /analysis/g.test(url)||
@@ -40,10 +40,10 @@ url=url.replace(/\//ig, ".");
 		) {
 		return "PROXY 127.0.0.1:8021";
 		}
+	//<--universe	
 
 
-
-	//union
+	//union-->
      if (
 /[-./]cnzz/g.test(url)||
 /[-./]aliyun/g.test(url)||
@@ -105,9 +105,10 @@ url=url.replace(/\//ig, ".");
 			) {
 			return "PROXY 127.0.0.1:8021";
 		}
+	//<--union
 
 
-	//special
+	//special-->
      if (
 /[-./]acscript[-./]js/g.test(url)||
 /[-./]52shouyou[-./]/g.test(url)||
@@ -173,8 +174,31 @@ url=url.replace(/\//ig, ".");
 		) {
 		return "PROXY 127.0.0.1:8021";
 		}
+	//<--special
 
+	//app-->
+     if (
+/[-./]startappservice[-./]/g.test(url)||
+/[-./]appodeal/g.test(url)||
+/[-./]jomodns[-./]/g.test(url)||
+/[-./]applvn[-./]/g.test(url)
+		) {
+		return "PROXY 127.0.0.1:8021";
+		}
+	//<---app
  
+
+//video-->
+     if (
+/qq/g.test(url)||
+/gtimg/g.test(url)||
+/qiyi/g.test(url)||
+/youku/g.test(url)||
+/tudou/g.test(url)||
+/ykimg/g.test(url)
+		) {
+
+
  	//qq
      if (
 /[-./][-./][tm]push/g.test(url)||
@@ -252,7 +276,45 @@ url=url.replace(/\//ig, ".");
 		return "PROXY 127.0.0.1:8021";
 		}
 
-	
+
+	//youku
+	if (
+/[-./][-./a-z0-9]?msg[-./]youku/g.test(url)||
+/[-./][a-z]?yes[-./]youku/g.test(url)||
+/[-./]api[-./a-z0-9]+youku/g.test(url)||
+/[-./]das[-./][-./a-z0-9]+youku/g.test(url)||
+/[-./]hu[o]?dong[-./a-z0-9]+youku/g.test(url)||
+/[-./]push[-./a-z0-9]+youku/g.test(url)||
+/[-./]sdk[-./a-z0-9]+youku/g.test(url)||
+/[-./]actives[-./]youku/g.test(url)||
+/[-./]adcontrol[-./]tudou/g.test(url)||
+/[-./]adplay[-./]tudou/g.test(url)||
+/[-./]atm[-./]youku/g.test(url)||
+/[-./]danmu[-./]youku/g.test(url)||
+/[-./]dl[-./]g[-./]youku/g.test(url)||
+/[-./]dmapp[-./]youku/g.test(url)||
+/[-./]gamex[-./]mobile[-./]youku/g.test(url)||
+/[-./]hz[-./]youku/g.test(url)||
+/[-./]l[-./]ykimg/g.test(url)||
+/[-./]l[-./]youku/g.test(url)||
+/[-./]log[-./]ykimg/g.test(url)||
+/[-./]log[-./]youku/g.test(url)||
+/[-./]lvip[-./]youku/g.test(url)||
+/[-./]s[-./]p[-./]youku/g.test(url)||
+/[-./]smartvideo[-./]youku/g.test(url)||
+/[-./]tdrec[-./]youku/g.test(url)||
+/[-./]test[-./]ott[-./]youku/g.test(url)||
+/[-./]wan[-./]youku/g.test(url)||
+/[-./]ykatr[-./]youku/g.test(url)||
+/[-./]ykrec[-./]youku/g.test(url)
+		) {
+		return "PROXY 127.0.0.1:8021";
+		}
+
+		
+		}
+//<---video
+
  
 	//nocoin
      if (
