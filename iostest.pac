@@ -194,32 +194,6 @@ url=url.replace(/\//ig, ".");
 		}
 
 
-		//youkuapp
-		if (
-/[-./]acs[-./][a-z0-9_\.\-]+taobao/g.test(url)||
-/[-./]adash[a-z0-9_\.\-]+taobao/g.test(url)||
-/[-./]aserver[-./]heyi/g.test(url)||
-/[-./]api[-./]taobao[-./]/g.test(url)||
-/[-./]apoll[-./]m[-./]taobao[-./]/g.test(url)||
-/[-./]danuoyi[-./]tbcache[-./]/g.test(url)||
-/[-./]ding[-./]youku[-./]/g.test(url)||
-/[-./]ems[-./]youku[-./]/g.test(url)||
-/[-./]majorserving[-./]/g.test(url)||
-/[-./]mfs[-./]ykimg[-./]/g.test(url)||
-/[-./]orange[-./]dc[-./]youku[-./]/g.test(url)||
-/[-./]sh[-./]wagbridge[-./]taobao[-./]/g.test(url)||
-/[-./]statis[-./]mobile[-./]youku[-./]/g.test(url)||
-/[-./]ut[-./]taobao[-./]/g.test(url)||
-/[-./]w[-./]kunlunar[-./]/g.test(url)||
-/[-./]api[-./a-z0-9]+tudou/g.test(url)||
-/[-./]themis[-./]ykimg[-./]/g.test(url)||
-/[-./]ykrectab[-./]youku[-./]/g.test(url)||
-/[-./]qr[-./]youku[-./]/g.test(url)||
-/[-./]guanggaoad[-./]youku[-./]/g.test(url)
-		) {
-		return "PROXY 127.0.0.1:8021";
-		}
-
 
 
 	//<---app
