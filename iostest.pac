@@ -102,6 +102,9 @@ url=url.replace(/\//ig, ".");
 /[-./]moatads/g.test(url)||
 /[-./]mediav/g.test(url)||
 /[-./]scorecardresearch/g.test(url)||
+/[-./]mookie/g.test(url)||
+/[-./]reachmax/g.test(url)||
+/[-./]xtgreat/g.test(url)||
 /[-./]jiathis/g.test(url)
 			) {
 			return "PROXY 127.0.0.1:8021";
