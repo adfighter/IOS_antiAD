@@ -16,10 +16,10 @@ url=url.replace(/\//ig, ".");
 /[-_./?&=]+union./g.test(url)||
 /stat[-_./?&=s]+/g.test(url)||
 /[-_./?&=]+admin[0-9]+/g.test(url)||
-/[^/][^g].alicdn/g.test(url)||
+/[a-fh-z]g?[.]alicdn/g.test(url)||
 /[-_./?&=]+pagead[-_./?&=0-9]+/g.test(url)||
 /[^c]count/g.test(url)||
-/[-/]ws+[:]/g.test(url)||
+/ws+[:]/g.test(url)||
 /mob[0-9./]/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
@@ -52,7 +52,6 @@ url=url.replace(/\//ig, ".");
 /[-./]alimama/g.test(url)||
 /[-./]miaozhen/g.test(url)||
 /[-./]irs01/g.test(url)||
-/[-./]domob/g.test(url)||
 /[-./]allyes/g.test(url)||
 /[-./]ipinyou/g.test(url)||
 /[-./]mct01/g.test(url)||
@@ -101,7 +100,9 @@ url=url.replace(/\//ig, ".");
 /[-./]vungle/g.test(url)||
 /[-./]rayjump/g.test(url)||
 /[-./]moatads/g.test(url)||
-/[-./]mediav/g.test(url)
+/[-./]mediav/g.test(url)||
+/[-./]scorecardresearch/g.test(url)||
+/[-./]jiathis/g.test(url)
 			) {
 			return "PROXY 127.0.0.1:8021";
 		}
@@ -188,6 +189,31 @@ url=url.replace(/\//ig, ".");
 		) {
 		return "PROXY 127.0.0.1:8021";
 		}
+
+
+		//youkuapp
+		if (
+/[-./]acs[-./][a-z0-9_\.\-]+taobao/g.test(url)||
+/[-./]adash[a-z0-9_\.\-]+taobao/g.test(url)||
+/[-./]aserver[-./]heyi/g.test(url)||
+/[-./]api[-./]taobao[-./]/g.test(url)||
+/[-./]apoll[-./]m[-./]taobao[-./]/g.test(url)||
+/[-./]danuoyi[-./]tbcache[-./]/g.test(url)||
+/[-./]ding[-./]youku[-./]/g.test(url)||
+/[-./]ems[-./]youku[-./]/g.test(url)||
+/[-./]majorserving[-./]/g.test(url)||
+/[-./]mfs[-./]ykimg[-./]/g.test(url)||
+/[-./]orange[-./]dc[-./]youku[-./]/g.test(url)||
+/[-./]sh[-./]wagbridge[-./]taobao[-./]/g.test(url)||
+/[-./]statis[-./]mobile[-./]youku[-./]/g.test(url)||
+/[-./]ut[-./]taobao[-./]/g.test(url)||
+/[-./]w[-./]kunlunar[-./]/g.test(url)
+		) {
+		return "PROXY 127.0.0.1:8021";
+		}
+
+
+
 	//<---app
  
 
