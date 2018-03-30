@@ -231,7 +231,6 @@ url=url.replace(/\//ig, ".");
 /[-./]h5[-./]m[-./]taobao[-./]/g.test(url)||
 /[-./]home[-./]mobile[-./]youku[-./]/g.test(url)||
 /[-./]huodong[-./]m[-./]taobao[-./]/g.test(url)||
-/[-./]itunes[-./]apple[-./]/g.test(url)||
 /[-./]iyes[-./]test[-./]heyi[-./]/g.test(url)||
 /[-./]kudouapi[-./]heyi[-./]/g.test(url)||
 /[-./]lftoken[-./]youku[-./]/g.test(url)||
