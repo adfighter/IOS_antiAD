@@ -20,6 +20,7 @@ url=url.replace(/\//ig, ".");
 /[-_./?&=]+pagead[-_./?&=0-9]+/g.test(url)||
 /[^c]count/g.test(url)||
 /ws+[:]/g.test(url)||
+	     /[？]market/g.test(url)||
 /mob[0-9./]/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
