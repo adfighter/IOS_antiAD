@@ -180,6 +180,7 @@ url=url.replace(/\//ig, ".");
 /[-./]js[-./]taipwl[-./]/g.test(url)||
 /[-./]adm[-./]/g.test(url)||
 /[-./]pub[-./]funshion/g.test(url)||
+	     /[-./]zhuyuanp[-./]top/g.test(url)||
 /[-./]7895983[-./]/g.test(url)   
 		) {
 		return "PROXY 127.0.0.1:8021";
