@@ -16,7 +16,7 @@ url=url.replace(/\//ig, ".");
 /[-_./?&=]+union./g.test(url)||
 /stat[-_./?&=s]+/g.test(url)||
 /[-_./?&=]+admin[0-9]+/g.test(url)||
-/[a-fh-z]g?[.]alicdn/g.test(url)||
+///[a-fh-z]g?[.]alicdn/g.test(url)||
 /[-_./?&=]+pagead[-_./?&=0-9]+/g.test(url)||
 /[^c]count/g.test(url)||
 /ws+[:]/g.test(url)||
