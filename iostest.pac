@@ -8,6 +8,15 @@ function FindProxyForURL(url, host)
      
 url=url.replace(/\//ig, ".");
 
+	
+	//keygen-->
+     if (
+/acdid[-./]acdsystems/g.test(url)
+		) {
+		return "PROXY 127.0.0.1:8021";
+		}
+////keygen<--
+	
      //regexp-->
      if (
 /[-_./?&=]+ad[-_./?&=svx0-9]/g.test(url)||
