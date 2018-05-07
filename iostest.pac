@@ -191,6 +191,7 @@ url=url.replace(/\//ig, ".");
 	     /[-./]zhuyuanp[-./]top/g.test(url)||
 	     /[-./]bibi100/g.test(url)||
 	     /[-./]xmgysweb[-./]/g.test(url)||
+	     /[-./]heygugu[-./]/g.test(url)||
 /[-./]qjhlc[-./]/g.test(url)||
 /[-./]7895983[-./]/g.test(url)   
 		) {
