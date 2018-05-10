@@ -228,6 +228,7 @@ url=url.replace(/\//ig, ".");
  	//qq
      if (
 	   /v[-./]qq/g.test(url)||  
+	     /video[s]?[-./]qq/g.test(url)|| 
 /[-./][tm]push/g.test(url)||
 /[-./]ad[a-z0-9_\.\-]+[-.]qq/g.test(url)||
 /[-./]mqqad/g.test(url)||
