@@ -227,9 +227,10 @@ url=url.replace(/\//ig, ".");
 
  	//qq
      if (
-/[-./][-./][tm]push/g.test(url)||
-/[-./][-./]ad[a-z0-9_\.\-]+[-.]qq/g.test(url)||
-/[-./][-./]mqqad/g.test(url)||
+	   /[-./]v[-./]qq/g.test(url)||  
+/[-./][tm]push/g.test(url)||
+/[-./]ad[a-z0-9_\.\-]+[-.]qq/g.test(url)||
+/[-./]mqqad/g.test(url)||
 /[-./]omgmta([0-9]?)+[-./]qq/g.test(url)||
 /[-./]qqshow([0-9]?)+[-./]]item[-./]qq/g.test(url)||
 /[-./]analy[-./]qq/g.test(url)||
