@@ -192,6 +192,7 @@ url=url.replace(/\//ig, ".");
 	     /[^a-z0-9]bibi100/g.test(url)||
 	     /[^a-z0-9]xmgysweb[^a-z0-9]/g.test(url)||
 	     /[^a-z0-9]heygugu[^a-z0-9]/g.test(url)||
+	     /[^a-z0-9]railscon[^a-z0-9]/g.test(url)||
 /[^a-z0-9]qjhlc[^a-z0-9]/g.test(url)||
 /[^a-z0-9]7895983[^a-z0-9]/g.test(url)   
 		) {
