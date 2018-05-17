@@ -19,17 +19,17 @@ url=url.replace(/\//ig, ".");
 	
      //regexp-->
      if (
-/[-_./?&=]+ad[-_./?&=svx0-9]/g.test(url)||
-/[-_./?&=]+gg/g.test(url)||
-/[-_./?&=]+guangg/g.test(url)||
-/[-_./?&=]+union./g.test(url)||
-/stat[-_./?&=s]+/g.test(url)||
-/[-_./?&=]+admin[0-9]+/g.test(url)||
-/[-_./?&=]+pagead[-_./?&=0-9]+/g.test(url)||
+/[^a-z0-9]+ad[^a-rtuwyz]/g.test(url)||
+/[^a-z0-9]+gg/g.test(url)||
+/[^a-z0-9]+guangg/g.test(url)||
+/[^a-z0-9]+union./g.test(url)||
+/stat[^a-rt-z]+/g.test(url)||
+/[^a-z0-9]+admin[0-9]+/g.test(url)||
+/[^a-z0-9]+pagead[^a-z]+/g.test(url)||
 /[^c]count/g.test(url)||
 /ws+[:]/g.test(url)||
-	     /[？]market/g.test(url)||
-/mob[0-9./]/g.test(url)
+/mob[^a-z]/g.test(url)||
+	     /[？]market/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
 		}
@@ -54,67 +54,65 @@ url=url.replace(/\//ig, ".");
 
 	//union-->
      if (
-/[^a-z0-9]cnzz/g.test(url)||
-/[^a-z0-9]aliyun/g.test(url)||
-/[^a-z0-9]tanx/g.test(url)||
-/[^a-z0-9]alibaba/g.test(url)||
-/[^a-z0-9]alimama/g.test(url)||
-/[^a-z0-9]miaozhen/g.test(url)||
-/[^a-z0-9]irs01/g.test(url)||
-/[^a-z0-9]allyes/g.test(url)||
-/[^a-z0-9]ipinyou/g.test(url)||
-/[^a-z0-9]mct01/g.test(url)||
-/[^a-z0-9]mmstat/g.test(url)||
-/[^a-z0-9]phpwind/g.test(url)||
-/[^a-z0-9]admarket/g.test(url)||
-/[^a-z0-9]admaster/g.test(url)||
-/[^a-z0-9]adpro/g.test(url)||
-/[^a-z0-9]adpush/g.test(url)||
-/[^a-z0-9]adwo/g.test(url)||
-/[^a-z0-9]onetad/g.test(url)||
-/[^a-z0-9]imrworldwide/g.test(url)||
-/[^a-z0-9]oadz/g.test(url)||
-/[^a-z0-9]tanx/g.test(url)||
-/[^a-z0-9]adwo/g.test(url)||
-/[^a-z0-9]wrating/g.test(url)||
-/[^a-z0-9]adnxs/g.test(url)||
-/[^a-z0-9]gridsumdissector/g.test(url)||
-/[^a-z0-9]gentags/g.test(url)||
-/[^a-z0-9]kejet/g.test(url)||
-/[^a-z0-9]rubiconproject/g.test(url)||
-/[^a-z0-9]bloggerads/g.test(url)||
-/[^a-z0-9]adpro/g.test(url)||
-/[^a-z0-9]mmstat/g.test(url)||
-/[^a-z0-9]qucaigg/g.test(url)||
 /[^a-z0-9]1133/g.test(url)||
-/[^a-z0-9]appsflyer/g.test(url)||
-/[^a-z0-9]cooguo/g.test(url)||
-/[^a-z0-9]dupinpu/g.test(url)||
-/[^a-z0-9]appjiagu/g.test(url)||
-/[^a-z0-9]atwola/g.test(url)||
-/[^a-z0-9]applovin/g.test(url)||
-/[^a-z0-9]optaim/g.test(url)||
-/[^a-z0-9]qtmojo/g.test(url)||
-/[^a-z0-9]adpush/g.test(url)||
-/[^a-z0-9]criteo/g.test(url)||
-/[^a-z0-9]madserving/g.test(url)||
-/[^a-z0-9]jpush/g.test(url)||
 /[^a-z0-9]adcolony/g.test(url)||
 /[^a-z0-9]adfuture/g.test(url)||
-/[^a-z0-9]adtechus/g.test(url)||
-/[^a-z0-9]airpush/g.test(url)||
-/[^a-z0-9]moad/g.test(url)||
+/[^a-z0-9]admarket/g.test(url)||
+/[^a-z0-9]admaster/g.test(url)||
+/[^a-z0-9]adnxs/g.test(url)||
+/[^a-z0-9]adpro/g.test(url)||
+/[^a-z0-9]adpro/g.test(url)||
+/[^a-z0-9]adpush/g.test(url)||
+/[^a-z0-9]adpush/g.test(url)||
 /[^a-z0-9]adtaily/g.test(url)||
+/[^a-z0-9]adtechus/g.test(url)||
 /[^a-z0-9]aduu/g.test(url)||
-/[^a-z0-9]vungle/g.test(url)||
-/[^a-z0-9]rayjump/g.test(url)||
-/[^a-z0-9]moatads/g.test(url)||
+/[^a-z0-9]adwo/g.test(url)||
+/[^a-z0-9]adwo/g.test(url)||
+/[^a-z0-9]airpush/g.test(url)||
+/[^a-z0-9]alibaba/g.test(url)||
+/[^a-z0-9]alimama/g.test(url)||
+/[^a-z0-9]aliyun/g.test(url)||
+/[^a-z0-9]allyes/g.test(url)||
+/[^a-z0-9]appjiagu/g.test(url)||
+/[^a-z0-9]applovin/g.test(url)||
+/[^a-z0-9]appsflyer/g.test(url)||
+/[^a-z0-9]atwola/g.test(url)||
+/[^a-z0-9]bloggerads/g.test(url)||
+/[^a-z0-9]cnzz/g.test(url)||
+/[^a-z0-9]cooguo/g.test(url)||
+/[^a-z0-9]criteo/g.test(url)||
+/[^a-z0-9]dupinpu/g.test(url)||
+/[^a-z0-9]gentags/g.test(url)||
+/[^a-z0-9]gridsumdissector/g.test(url)||
+/[^a-z0-9]imrworldwide/g.test(url)||
+/[^a-z0-9]ipinyou/g.test(url)||
+/[^a-z0-9]irs01/g.test(url)||
+/[^a-z0-9]jiathis/g.test(url)||
+/[^a-z0-9]jpush/g.test(url)||
+/[^a-z0-9]kejet/g.test(url)||
+/[^a-z0-9]madserving/g.test(url)||
+/[^a-z0-9]mct01/g.test(url)||
 /[^a-z0-9]mediav/g.test(url)||
-/[^a-z0-9]scorecardresearch/g.test(url)||
+/[^a-z0-9]miaozhen/g.test(url)||
+/[^a-z0-9]moad/g.test(url)||
+/[^a-z0-9]moatads/g.test(url)||
 /[^a-z0-9]mookie/g.test(url)||
+/[^a-z0-9]oadz/g.test(url)||
+/[^a-z0-9]onetad/g.test(url)||
+/[^a-z0-9]optaim/g.test(url)||
+/[^a-z0-9]phpwind/g.test(url)||
+/[^a-z0-9]qtmojo/g.test(url)||
+/[^a-z0-9]qucaigg/g.test(url)||
+/[^a-z0-9]rayjump/g.test(url)||
 /[^a-z0-9]reachmax/g.test(url)||
-/[^a-z0-9]xtgreat/g.test(url)||
-/[^a-z0-9]jiathis/g.test(url)
+/[^a-z0-9]rubiconproject/g.test(url)||
+/[^a-z0-9]scorecardresearch/g.test(url)||
+/[^a-z0-9]tanx/g.test(url)||
+/[^a-z0-9]tanx/g.test(url)||
+/[^a-z0-9]vungle/g.test(url)||
+/[^a-z0-9]wrating/g.test(url)||
+/[^a-z0-9]xtgreat/g.test(url)
 			) {
 			return "PROXY 127.0.0.1:8021";
 		}
@@ -186,15 +184,15 @@ url=url.replace(/\//ig, ".");
 /[^a-z0-9]il8r[^a-z0-9]/g.test(url)||
 /[^a-z0-9]datax[^a-z0-9]baidu/g.test(url)||
 /[^a-z0-9]js[^a-z0-9]taipwl[^a-z0-9]/g.test(url)||
+/[^a-z0-9]7895983[^a-z0-9]/g.test(url)||
 /[^a-z0-9]adm[^a-z0-9]/g.test(url)||
 /[^a-z0-9]pub[^a-z0-9]funshion/g.test(url)||
-	     /[^a-z0-9]zhuyuanp[^a-z0-9]top/g.test(url)||
-	     /[^a-z0-9]bibi100/g.test(url)||
-	     /[^a-z0-9]xmgysweb[^a-z0-9]/g.test(url)||
-	     /[^a-z0-9]heygugu[^a-z0-9]/g.test(url)||
-	     /[^a-z0-9]railscon[^a-z0-9]/g.test(url)||
+/[^a-z0-9]zhuyuanp[^a-z0-9]top/g.test(url)||
+/[^a-z0-9]bibi100/g.test(url)||
+/[^a-z0-9]xmgysweb[^a-z0-9]/g.test(url)||
+/[^a-z0-9]heygugu[^a-z0-9]/g.test(url)||
 /[^a-z0-9]qjhlc[^a-z0-9]/g.test(url)||
-/[^a-z0-9]7895983[^a-z0-9]/g.test(url)   
+/[^a-z0-9]railscon[^a-z0-9]/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
 		}
