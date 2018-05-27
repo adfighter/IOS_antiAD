@@ -107,7 +107,6 @@ url=url.replace(/\//ig, ".");
 /[^a-z0-9]rayjump/g.test(url)||
 /[^a-z0-9]reachmax/g.test(url)||
 /[^a-z0-9]rubiconproject/g.test(url)||
-/[^a-z0-9]scorecardresearch/g.test(url)||
 /[^a-z0-9]tanx/g.test(url)||
 /[^a-z0-9]tanx/g.test(url)||
 /[^a-z0-9]vungle/g.test(url)||
