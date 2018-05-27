@@ -279,27 +279,10 @@ url=url.replace(/\//ig, ".");
 	
 	//iqiyi	
      if (
-/[^a-z0-9]iface[-./a-z0-9]+qiyi/g.test(url)||
-/[^a-z0-9]msg[-./a-z0-9]+qiyi/g.test(url)||
-/[^a-z0-9]afp[-./a-z0-9]+qiyi/g.test(url)||
-/[^a-z0-9]ckm[^a-z0-9]iqiyi/g.test(url)||
 /[^a-z0-9]cloudpush[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]cm[^a-z0-9]passport[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]cmts[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]cupid[^a-z0-9]iqiyi/g.test(url)||
+	/[^a-z0-9]cupid[^a-z0-9]iqiyi/g.test(url)||
 /[^a-z0-9]feedback[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]gamecenter[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]im[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]mbdapp[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]mbdlog[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]notice[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]ota[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]paopao[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]policy[^a-z0-9]video[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]rcd[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]sns[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]static[^a-z0-9]g[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]store[^a-z0-9]iqiyi/g.test(url)||
+/[^a-z0-9]gamecenter[^a-z0-9]iqiyi/g.test(url)||     
 /[^a-z0-9]uaa[^a-z0-9]iqiyi/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
