@@ -6,7 +6,7 @@ function FindProxyForURL(url, host)
      //if (spe(url)) {return "PROXY 127.0.0.1:8021";}
      //if (noc(url)) {return "PROXY 127.0.0.1:8021";}
      
-url=url.replace(/\//ig, ".");
+//url=url.replace(/\//ig, ".");
 
 	
 	//keygen-->
