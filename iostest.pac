@@ -289,18 +289,7 @@ url=url.replace(/\//ig, ".");
 /[^a-z0-9]cmts[^a-z0-9]iqiyi/g.test(url)||
 /[^a-z0-9]cupid[^a-z0-9]iqiyi/g.test(url)||
 /[^a-z0-9]feedback[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]gamecenter[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]im[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]mbdapp[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]mbdlog[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]notice[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]ota[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]paopao[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]policy[^a-z0-9]video[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]rcd[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]sns[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]static[^a-z0-9]g[^a-z0-9]iqiyi/g.test(url)||
-/[^a-z0-9]store[^a-z0-9]iqiyi/g.test(url)||
+
 /[^a-z0-9]uaa[^a-z0-9]iqiyi/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
