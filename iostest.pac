@@ -110,6 +110,7 @@ url=url.replace(/\//ig, ".");
 /[^a-z0-9]tanx/g.test(url)||
 /[^a-z0-9]tanx/g.test(url)||
 /[^a-z0-9]vungle/g.test(url)||
+	     /[^a-z0-9]scorecardresearch/g.test(url)||
 /[^a-z0-9]wrating/g.test(url)||
 /[^a-z0-9]xtgreat/g.test(url)
 			) {
