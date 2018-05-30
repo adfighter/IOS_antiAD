@@ -211,6 +211,7 @@ function FindProxyForURL(url, host)
 /[^a-z0-9]ucweb[^a-z0-9]/g.test(url)||
 /[^a-z0-9]ucfly[^a-z0-9]/g.test(url)||
 /[^a-z0-9]uc[0-9]+[^a-z0-9]/g.test(url)||
+	     /[^a-z0-9]sm[^a-z0-9]cn/g.test(url)||
 /[^a-z0-9]applvn[^a-z0-9]/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
