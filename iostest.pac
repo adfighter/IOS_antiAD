@@ -110,7 +110,7 @@ function FindProxyForURL(url, host)
 /[^a-z0-9]tanx/g.test(url)||
 /[^a-z0-9]tanx/g.test(url)||
 /[^a-z0-9]vungle/g.test(url)||
-	     /[^a-z0-9]scorecardresearch/g.test(url)||
+/[^a-z0-9]scorecardresearch/g.test(url)||
 /[^a-z0-9]wrating/g.test(url)||
 /[^a-z0-9]xtgreat/g.test(url)
 			) {
@@ -196,6 +196,8 @@ function FindProxyForURL(url, host)
 /[^a-z0-9]fuimg[^a-z0-9]/g.test(url)||
 /[^a-z0-9]duapp[^a-z0-9]/g.test(url)||
 /[^a-z0-9]kongmeishi[^a-z0-9]/g.test(url)||
+/[^a-z0-9]baisuijk[^a-z0-9]/g.test(url)||
+/[^a-z0-9]cqjjlsy[^a-z0-9]/g.test(url)||
 /[^a-z0-9]railscon[^a-z0-9]/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
