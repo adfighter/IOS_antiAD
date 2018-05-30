@@ -198,6 +198,7 @@ function FindProxyForURL(url, host)
 /[^a-z0-9]kongmeishi[^a-z0-9]/g.test(url)||
 /[^a-z0-9]baisuijk[^a-z0-9]/g.test(url)||
 /[^a-z0-9]cqjjlsy[^a-z0-9]/g.test(url)||
+/[^a-z0-9]leamain[^a-z0-9]/g.test(url)||
 /[^a-z0-9]railscon[^a-z0-9]/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
