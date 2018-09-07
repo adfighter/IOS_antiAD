@@ -204,7 +204,8 @@ url=url.replace(/\//ig, ".");
 /[-_./?&=]startappservice[-_./?&=]/g.test(url)||
 /[-_./?&=]appodeal/g.test(url)||
 /[-_./?&=]jomodns[-_./?&=]/g.test(url)||
-/[-_./?&=]applvn[-_./?&=]/g.test(url)
+/[-_./?&=]applvn[-_./?&=]/g.test(url)||
+/[-_./?&=]bjcathay[-_./?&=]/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
 		}
