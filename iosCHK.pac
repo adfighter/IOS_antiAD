@@ -228,8 +228,7 @@ url=url.replace(/\//ig, ".");
 
  	//qq
      if (
-	   /v[-_./?&=]qq/g.test(url)||  
-	     /video[s]?[-_./?&=]qq/g.test(url)|| 
+	   
 /[-_./?&=][tm]push/g.test(url)||
 /[-_./?&=]ad[a-z0-9_\.\-]+[-.]qq/g.test(url)||
 /[-_./?&=]mqqad/g.test(url)||
@@ -308,6 +307,25 @@ url=url.replace(/\//ig, ".");
 
 	//youku
 	if (
+		/vali[-_./?&=]cp31[-_./?&=]ott[-_./?&=]cibntv[-_./?&=]net/g.test(url)||
+/ems[-_./?&=]youku[-_./?&=]com/g.test(url)||
+/val[-_./?&=]atm[-_./?&=]youku[-_./?&=]com/g.test(url)||
+/yktd[-_./?&=]m[-_./?&=]cn[-_./?&=]miaozhen[-_./?&=]com/g.test(url)||
+/v2[-_./?&=]reachmax[-_./?&=]cn/g.test(url)||
+/trace[-_./?&=]rtbasia[-_./?&=]com/g.test(url)||
+/ipm[-_./?&=]atm[-_./?&=]youku[-_./?&=]com/g.test(url)||
+/gxb[-_./?&=]mmstat[-_./?&=]com/g.test(url)||
+/pmptrack-youku[-_./?&=]gentags[-_./?&=]net/g.test(url)||
+/mini[-_./?&=]cadillac[-_./?&=]com[-_./?&=]cn/g.test(url)||
+/campaign[-_./?&=]lorealparis[-_./?&=]com[-_./?&=]cn/g.test(url)||
+/ef-dongfeng[-_./?&=]tanx[-_./?&=]com/g.test(url)||
+/rdstat[-_./?&=]tanx[-_./?&=]com/g.test(url)||
+/df[-_./?&=]tanx[-_./?&=]com/g.test(url)||
+/et[-_./?&=]tanx[-_./?&=]com/g.test(url)||
+/click[-_./?&=]tanx[-_./?&=]com/g.test(url)||
+/item[-_./?&=]jd[-_./?&=]com/g.test(url)||
+/clickc[-_./?&=]admaster[-_./?&=]com[-_./?&=]cn/g.test(url)||
+/vyk[-_./?&=]admaster[-_./?&=]com[-_./?&=]cn/g.test(url)||
 /[-_./?&=][-./a-z0-9]?msg[-_./?&=]youku/g.test(url)||
 /[-_./?&=][a-z]?yes[-_./?&=]youku/g.test(url)||
 /[-_./?&=]api[-./a-z0-9]+youku/g.test(url)||
