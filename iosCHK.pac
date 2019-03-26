@@ -216,13 +216,13 @@ url=url.replace(/\//ig, ".");
  
 
 //video-->
-     if (
-/qq/g.test(url)||
-/gtimg/g.test(url)||
-/qiyi/g.test(url)||
-/youku/g.test(url)||
-/tudou/g.test(url)||
-/ykimg/g.test(url)
+     if (true
+///qq/g.test(url)||
+///gtimg/g.test(url)||
+///qiyi/g.test(url)||
+///youku/g.test(url)||
+///tudou/g.test(url)||
+///ykimg/g.test(url)
 		) {
 
 
