@@ -307,6 +307,7 @@ url=url.replace(/\//ig, ".");
 
 	//youku
 	if (
+		/valipl[-_./?&=]cp31[-_./?&=]ott[-_./?&=]cibntv[-_./?&=]net/g.test(url)||
 		/vali[-_./?&=]cp31[-_./?&=]ott[-_./?&=]cibntv[-_./?&=]net/g.test(url)||
 /ems[-_./?&=]youku[-_./?&=]com/g.test(url)||
 /val[-_./?&=]atm[-_./?&=]youku[-_./?&=]com/g.test(url)||
