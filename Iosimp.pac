@@ -17,7 +17,17 @@ url=url.replace(/\//ig, ".");
       }
 
 //app-->
-     if (true
+     if (
+          /[-_./?&=]startappservice[-_./?&=]/g.test(url)||
+/[-_./?&=]appodeal/g.test(url)||
+/[-_./?&=]jomodns[-_./?&=]/g.test(url)||
+/[-_./?&=]applvn[-_./?&=]/g.test(url)||
+/[-_./?&=]bjcathay[-_./?&=]/g.test(url)||
+/[-_./?&=]rayjump[-_./?&=]/g.test(url)||
+/[-_./?&=]moatads[-_./?&=]/g.test(url)||
+/[-_./?&=]adservice[-_./?&=]/g.test(url)||
+/[-_./?&=]doubleclick[-_./?&=]/g.test(url)||
+/[-_./?&=]vungle[-_./?&=]/g.test(url)
       ) {
       return "PROXY 127.0.0.1:8021";
       }
