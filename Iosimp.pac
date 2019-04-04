@@ -33,7 +33,7 @@ url=url.replace(/\//ig, ".");
 /[-_./?&=]dns[-_./?&=]iqiyi/g.test(url)||
 /[-_./?&=]irs01/g.test(url)||
 /[-_./?&=]hcdn[-_./?&=]qiyi/g.test(url)||
-/[-_./?&=]msg[-_./?&=]qy[-_./?&=]net/g.test(url)
+/[-_./?&=]qy[-_./?&=]net/g.test(url)
       ) {
       return "PROXY 127.0.0.1:8021";
       }
