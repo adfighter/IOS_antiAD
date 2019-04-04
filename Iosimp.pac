@@ -35,7 +35,12 @@ url=url.replace(/\//ig, ".");
 /[-_./?&=]hcdn[-_./?&=]qiyi/g.test(url)||
 /[-_./?&=]qy[-_./?&=]net/g.test(url)||
 /[-_./?&=]valipl[-_./?&=]cp31[-_./?&=]ott[-_./?&=]cibntv/g.test(url)||
-/[-_./?&=]atm[-_./?&=]youku/g.test(url)
+/[-_./?&=]atm[-_./?&=]youku/g.test(url)||
+/[-_./?&=]vali[-_./?&=]cp31[-_./?&=]ott[-_./?&=]cibntv/g.test(url)||
+/[-_./?&=]miaozhen[-_./?&=]com/g.test(url)||
+/[-_./?&=]taobao[-_./?&=]com/g.test(url)||
+/[-_./?&=]tbcache[-_./?&=]com/g.test(url)||
+/[-_./?&=]danuoyi[-_./?&=]alicdn[-_./?&=]com/g.test(url)
       ) {
       return "PROXY 127.0.0.1:8021";
       }
