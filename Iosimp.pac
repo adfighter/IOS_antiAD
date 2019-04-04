@@ -6,7 +6,7 @@ function FindProxyForURL(url, host)
      //if (spe(url)) {return "PROXY 127.0.0.1:8021";}
      //if (noc(url)) {return "PROXY 127.0.0.1:8021";}
      
-url=url.replace(/\//ig, ".");
+url=url.replace(/[^0-9a-zA-Z]/ig, "-");
 
 	
 	//keygen-->
@@ -22,7 +22,12 @@ url=url.replace(/\//ig, ".");
 /[-_./?&=]appodeal/g.test(url)||
 /[-_./?&=]jomodns[-_./?&=]/g.test(url)||
 /[-_./?&=]applvn[-_./?&=]/g.test(url)||
-/[-_./?&=]bjcathay[-_./?&=]/g.test(url)
+/[-_./?&=]bjcathay[-_./?&=]/g.test(url)||
+/[-_./?&=]rayjump[-_./?&=]/g.test(url)||
+/[-_./?&=]moatads[-_./?&=]/g.test(url)||
+/[-_./?&=]adservice[-_./?&=]/g.test(url)||
+/[-_./?&=]doubleclick[-_./?&=]/g.test(url)||
+/[-_./?&=]vungle[-_./?&=]/g.test(url)
 		) {
 		return "PROXY 127.0.0.1:8021";
 		}
