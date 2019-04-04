@@ -36,8 +36,8 @@ url=url.replace(/[^0-9a-zA-Z]/ig, "-");
 
 
 	//iqiyi
-///[-_./?&=]cupid[-_./?&=i]+qiyi/g.test(url)||
-/[-_./?&=]msg[-_./?&=i]+qiyi/g.test(url)
+/[-_./?&=]cupid[-_./?&=a-z]+qiyi/g.test(url)||
+/[-_./?&=]msg[-_./?&=a-z]+qiyi/g.test(url)||
 		) {
 		return "PROXY 127.0.0.1:8021";
 		}
