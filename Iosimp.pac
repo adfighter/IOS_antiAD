@@ -30,9 +30,9 @@ url=url.replace(/\//ig, ".");
 /[-_./?&=]vungle[-_./?&=]/g.test(url)||
 /[-_./?&=]cupid[-_./?&=i]+qiyi/g.test(url)||
 /[-_./?&=]msg[-_./?&=][-_./?&=a-z]+qiyi/g.test(url)||
-/[-_./?&=]dns/[-_./?&=]iqiyi/g.test(url)||
+/[-_./?&=]dns[-_./?&=]iqiyi/g.test(url)||
 /[-_./?&=]irs01/g.test(url)||
-/[-_./?&=]hcdn/[-_./?&=]qiyi/g.test(url)
+/[-_./?&=]hcdn[-_./?&=]qiyi/g.test(url)
       ) {
       return "PROXY 127.0.0.1:8021";
       }
