@@ -19,7 +19,6 @@ function FindProxyForURL(url, host)
 //app-->
 		
      if (
-     //nplayer
 /[-_./?&=]startappservice[-_./?&=]/g.test(url)||
 /[-_./?&=]appodeal/g.test(url)||
 /[-_./?&=]jomodns[-_./?&=]/g.test(url)||
@@ -29,13 +28,7 @@ function FindProxyForURL(url, host)
 /[-_./?&=]adservice[-_./?&=]/g.test(url)||
 /[-_./?&=]doubleclick[-_./?&=]/g.test(url)||
 /[-_./?&=]vungle[-_./?&=]/g.test(url)||
-		
-
-	 //yangshiyingyin
 /[-_./?&=]bjcathay[-_./?&=]/g.test(url)||
-
-
-	//iqiyi
 /[-_./?&=]cupid[-_./?&=i]+qiyi/g.test(url)||
 /[-_./?&=]msg[-_./?&=][-_./?&=a-z]+qiyi/g.test(url)
 		) {
